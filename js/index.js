@@ -25,6 +25,7 @@ window.onload = function () {
     };
 
     btnRestart.onclick = function () {
+        btnStop.setAttribute('disabled', true);
         btnRestart.setAttribute('disabled', true);
         btnStart.removeAttribute('disabled');
         clearInterval(interVal);
