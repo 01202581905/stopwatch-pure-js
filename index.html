@@ -6,6 +6,7 @@
     <link rel="shortcut icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Stopwatch_Vector.svg/512px-Stopwatch_Vector.svg.png"
         type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STOPWATCH</title>
     <link rel="stylesheet" href="style/style.css">
@@ -18,9 +19,9 @@
             alt="stopwatch">
         <p id="times"><span id="seconds">00</span>:<span id="tens">00</span></p>
         <div class="control">
-            <button class="btn">Start</button>
-            <button class="btn">Stop</button>
-            <button class="btn">Restart</button>
+            <button class="btn" id="start">Start</button>
+            <button class="btn" id="stop" disabled>Stop</button>
+            <button class="btn" id="restart" disabled>Restart</button>
         </div>
     </section>
 </body>
